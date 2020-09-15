@@ -46,7 +46,7 @@ h1 {
 
   }
   body {
-  background-color: SkyBlue;
+  background-color: #00FF32;
 }
 p {
   font-family: 'Poppins', Arial, sans-serif;
@@ -62,13 +62,13 @@ p {
 /*---Media Queries---*/
 @media screen and (max-width: 1000px) {
   body {
-    background-color: LightSalmon;
+    background-color: #00FFB1;
 }
 }
 
 @media screen and (max-width: 500px) {
   body {
-    background-color: MediumSeaGreen;
+    background-color: #00CDFF;
 }
 }
 }
