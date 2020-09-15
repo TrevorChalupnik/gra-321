@@ -2,25 +2,25 @@
 background-color:#15FFC6;
 }
 button {
-  background-color:#14A171;
+  background-color:#A9F9FD;
   border: none;
-  color:white;
+  color:black;
   font-family:Arial, sans-serif;
   text-transform: uppercase;
   padding: 1em 2em 1em 2em;
 }
 a {
-  background-color: white;
+  background-color: #A9F9FD;
   color:#000;
   display:block;
   font-family:Arial, sans-serif;
   padding:2em;
-  width:20%;
+  width:15%;
   text-decoration:none;
 }
 
 .padding-hover:hover {
-  background-color: LightSalmon;
+  background-color: #D671FF;
   color:white;
   text-decoration:underline;
 }
