@@ -1,13 +1,32 @@
 * {
 background-color:#15FFC6;
 }
-button { 
+button {
   background-color:#14A171;
   border: none;
   color:white;
   font-family:Arial, sans-serif;
   text-transform: uppercase;
   padding: 1em 2em 1em 2em;
+}
+a {
+  background-color: white;
+  color:#000;
+  display:block;
+  font-family:Arial, sans-serif;
+  padding:2em;
+  width:20%;
+  text-decoration:none;
+}
+
+.padding-hover:hover {
+  background-color: LightSalmon;
+  color:white;
+  text-decoration:underline;
+}
+
+.visited-gray:visited {
+  color: LightGray;
 }
 h1 {
 
