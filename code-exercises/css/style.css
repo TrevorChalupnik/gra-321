@@ -30,6 +30,17 @@ a {
 .visited-gray:visited {
   color: LightGray;
 }
+/*---Media Queries---*/
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: #00FFB1;
+}
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: #00CDFF;
+}
 h1
   .container {
     background-image: url("Photography img css.jpeg");
@@ -57,18 +68,6 @@ p {
   margin: 0 auto;
   top: 65px;
   position:relative;
-}
-
-/*---Media Queries---*/
-@media screen and (max-width: 1000px) {
-  body {
-    background-color: #00FFB1;
-}
-}
-
-@media screen and (max-width: 500px) {
-  body {
-    background-color: #00CDFF;
 }
 }
 }
