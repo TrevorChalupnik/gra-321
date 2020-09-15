@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
 * {
 background-color:#15FFC6;
 }
@@ -32,12 +34,10 @@ h1
   .container {
     background-image: url("Photography img css.jpeg");
     background-size: cover;
-    height:700px;
+    height:800px;
     margin: 0 auto;
     width:50%;
-
-  }
-
+}
   h1 {
     color: black;
     font-size:52px;
