@@ -12,7 +12,7 @@ button {
   padding: 1em 2em 1em 2em;
 }
 a {
-  background-color: #A9F9FD;
+  background-color: SteelBlue;
   color:#000;
   display:block;
   font-family:Arial, sans-serif;
@@ -22,7 +22,7 @@ a {
 }
 
 .padding-hover:hover {
-  background-color: #D671FF;
+  background-color: SteelBlue;
   color:white;
   text-decoration:underline;
 }
