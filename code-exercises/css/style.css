@@ -28,7 +28,7 @@ a {
 .visited-gray:visited {
   color: LightGray;
 }
-h1 {
+h1
   .container {
     background-image: url("Photography img css.jpeg");
     background-size: cover;
