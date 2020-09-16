@@ -1,51 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
-
-body{
-background-color:peachpuff;
-}
-button {
-  background-color:plum;
-  border: none;
-  color:black;
-  font-family: Arial, sans-serif;
-  text-transform: uppercase;
-  padding: 1em 2em 1em 2em;
-}
-a {
-  background-color: peachpuff;
-  color:#000;
-  display:block;
-  font-family:Arial, sans-serif;
-  padding:2em;
-  width:15%;
-  text-decoration:none;
-}
-
-.padding-hover:hover {
-  background-color: Blue;
-  color:white;
-  text-decoration:underline;
-}
-
-.visited-gray:visited {
-  color: LightGray;
-}
-.follow {
-  background-image: url("https://trevorchalupnik.github.io/gra-321/code-exercises/img/Photographyimgcss.jpeg");
-  background-size: cover;
-  height:700px;
-  margin: 0 auto;
-  width:50%;
-}
 h1 {
   color: black;
   font-size:52px;
   position:relative;
   text-align:center;
 
-}
-body {
-background-color: #00FF32;
 }
 p {
 font-family: Arial, sans-serif;
@@ -57,6 +16,42 @@ margin: 0 auto;
 top: 65px;
 position:relative;
 }
+a {
+  background-color: peachpuff;
+  color:#000;
+  display:block;
+  font-family:Arial, sans-serif;
+  padding:2em;
+  width:15%;
+  text-decoration:none;
+}
+button {
+  background-color:plum;
+  border: none;
+  color:black;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 1em 2em 1em 2em;
+}
+.padding-hover:hover {
+  background-color: Blue;
+  color:white;
+  text-decoration:underline;
+}
+body{
+background-color:peachpuff;
+}
+.follow {
+  background-image: url("https://trevorchalupnik.github.io/gra-321/code-exercises/img/Photographyimgcss.jpeg");
+  background-size: cover;
+  height:700px;
+  margin: 0 auto;
+  width:50%;
+}
+.visited-gray:visited {
+  color: LightGray;
+}
+
 /*---Media Queries---*/
 @media screen and (max-width: 1000px) {
   #magic {
