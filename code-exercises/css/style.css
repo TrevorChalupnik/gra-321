@@ -52,6 +52,13 @@ background-color:peachpuff;
   color: LightGray;
 }
 
+.patricia-pic {
+background-image: url("https://trevorchalupnik.github.io/gra-321/code-exercises/img/patricia-urquiola.png");">
+}
+.jovi-pic {
+background-image: url("https://trevorchalupnik.github.io/gra-321/code-exercises/img/bon-jovi.png");">
+}
+
 /*---Media Queries---*/
 @media screen and (max-width: 1000px) {
   #magic {
