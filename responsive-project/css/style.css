@@ -1,10 +1,35 @@
 header {
-background-color: #EBF9FF;
+background-color: white;
 width: 100%;
 }
 
+.about-us {
+  text-decoration:none;
+  line-height:40px;
+  text-align: center;
+  color: black;
+  display:block;
+}
+
+.header-banner {
+  background-image: url("https://lindseymariegomez.github.io/fall-2020/img/fall-1.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  background-position: center center;
+  display:flex;
+  justify-content: center;
+}
+
+.header-banner img {
+height: 200px;
+padding: 150px;
+}
+
+
 .header-nav {
-  background-color: #EBF9FF;
+  background-color: white;
   width:90%;
   margin: 0 auto;
 }
@@ -60,5 +85,124 @@ ul.menu-items a {
 
 .social-icons img {
   padding:5px;
+}
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/*
+codepen reset styles
+*/
+
+li, ul, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width:100%;
+  background-color: black;
+  margin:0px;
+  padding:0px;
+}
+
+section {
+  background-color:#F5F6DD;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1 {
+  color:white;
+  font-size:3rem;
+}
+
+section h1, p, ul, li {
+  color:#724937;
+}
+
+.iced-drinks, .hot-drinks, .specialty-menu {
+  width:85%;
+  margin: 0 auto;
+  color:
+}
+
+.grilled-panini {
+  width:85%;
+  margin: 0 auto;
+  color:
+}
+
+ .menu-item-row {
+  background-color: paleturquoise;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  padding: 0 0 1rem 0;
+}
+
+.menu-item-row p {    /*This could also be called .menu-items-row .drink-name */
+  width:40%;
+  text-align:left;
+  background-color:pink;
+}
+
+.menu-item-row ul {
+  width:60%;
+  list-style-type: none;
+  float: left;
+  text-align:left;
+  background-color:yellow;
+}
+
+.menu-item-row ul li {
+  width:30%;
+  display:inline-block;
+}
+
+.menu-item-row2 {
+  background-color: paleturquoise;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  padding: 0 0 1rem 0;
+}
+
+.menu-item-row2 p {    /*This could also be called .menu-items-row .drink-name */
+  width:40%;
+  text-align:left;
+  background-color:pink;
+}
+
+.menu-item-row2 ul {
+  width:38%;
+  list-style-type: none;
+  float: left;
+  text-align:right;
+  background-color:yellow;
+}
+
+.menu-item-row2 ul li {
+  width:30%;
+  display:inline-block;
+}
+
+.location-details {
+border: 1px double #333;
+width:50%;
+padding:30px;
+}
+
+a {
+display:block;
+}
+
+iframe {
+width:50%;
 }
 /*Desktop Styles*/
