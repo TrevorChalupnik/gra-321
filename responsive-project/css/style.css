@@ -12,7 +12,7 @@ width: 100%;
 }
 
 .header-banner {
-  background-image: url("https://lindseymariegomez.github.io/fall-2020/img/fall-1.jpg");
+  background-image: img src="css/img/coffee beans.jpeg";
   background-repeat:no-repeat;
   background-size: cover;
   width: 100%;
@@ -103,7 +103,7 @@ li, ul, p {
 
 body {
   width:100%;
-  background-color: black;
+  background-color: peachpuff;
   margin:0px;
   padding:0px;
 }
