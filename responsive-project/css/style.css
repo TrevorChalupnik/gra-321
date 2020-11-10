@@ -34,6 +34,9 @@ padding: 150px;
   margin: 0 auto;
 }
 
+.ice {
+  background-position: right;
+}
 
 .nav-bar {
   display:flex;
@@ -46,11 +49,11 @@ padding: 150px;
 }
 
 #logo {
-height:100px;
+height:70px;
 }
 
 #toggle {
-display:none;
+display: none;
 }
 
 label {
@@ -196,7 +199,8 @@ section h1, p, ul, li {
 .location-details {
 border: 1px double #333;
 width:50%;
-padding:30px;
+padding:60px;
+align-items: center;
 }
 
 a {
