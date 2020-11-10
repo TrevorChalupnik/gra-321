@@ -12,7 +12,7 @@ width: 100%;
 }
 
 .header-banner {
-  background-image: img src="css/img/coffee beans.jpeg";
+  background-image: img src="img/coffee-beans.jpeg";
   background-repeat:no-repeat;
   background-size: cover;
   width: 100%;
@@ -33,6 +33,7 @@ padding: 150px;
   width:90%;
   margin: 0 auto;
 }
+
 
 .nav-bar {
   display:flex;
@@ -109,7 +110,7 @@ body {
 }
 
 section {
-  background-color:#F5F6DD;
+  background-color: peachpuff;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -137,7 +138,7 @@ section h1, p, ul, li {
 }
 
  .menu-item-row {
-  background-color: paleturquoise;
+  background-color: peachpuff;
   width: 100%;
   display:flex;
   justify-content: space-between;
@@ -148,7 +149,7 @@ section h1, p, ul, li {
 .menu-item-row p {    /*This could also be called .menu-items-row .drink-name */
   width:40%;
   text-align:left;
-  background-color:pink;
+  background-color:peachpuff;
 }
 
 .menu-item-row ul {
@@ -156,7 +157,7 @@ section h1, p, ul, li {
   list-style-type: none;
   float: left;
   text-align:left;
-  background-color:yellow;
+  background-color:peachpuff;
 }
 
 .menu-item-row ul li {
@@ -165,7 +166,7 @@ section h1, p, ul, li {
 }
 
 .menu-item-row2 {
-  background-color: paleturquoise;
+  background-color: peachpuff;
   width: 100%;
   display:flex;
   justify-content: space-between;
@@ -176,15 +177,15 @@ section h1, p, ul, li {
 .menu-item-row2 p {    /*This could also be called .menu-items-row .drink-name */
   width:40%;
   text-align:left;
-  background-color:pink;
+  background-color:peachpuff;
 }
 
 .menu-item-row2 ul {
-  width:38%;
+  width:60%;
   list-style-type: none;
   float: left;
-  text-align:right;
-  background-color:yellow;
+  text-align:left;
+  background-color:peachpuff;
 }
 
 .menu-item-row2 ul li {
