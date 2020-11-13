@@ -207,10 +207,15 @@ margin-bottom: 10px;
 }
 
 .location-details {
-border: 1px double #333;
 width:50%;
-padding:60px;
+padding:90px;
 align-items: center;
+}
+
+.location-details ul {
+  list-style-type: none;
+  float: left;
+  text-align:left;
 }
 
 a {
@@ -218,7 +223,8 @@ display:block;
 }
 
 iframe {
-width:50%;
+width:100%;
+padding-bottom: 10px;
 }
 /*Desktop Styles*/
 @media only screen and (min-width:400px) {
@@ -227,8 +233,10 @@ display:flex;
 flex-direction: row-reverse;
 }
 
-.hot-drinks {
-  display: flex;
+.location-details ul {
+  list-style-type: none;
+  float: left;
+  text-align:left;
 }
 
   .menu-image {
