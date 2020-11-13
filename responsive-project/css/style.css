@@ -16,16 +16,16 @@ width: 100%;
   background-repeat:no-repeat;
   background-size: cover;
   width: 100%;
-  height: 500px;
+  height: 200px;
   background-position: center center;
   display:flex;
   justify-content: center;
 }
 
 .header-banner img {
-height: 300px;
-width: 350px;
-padding: 100px;
+height: 150px;
+width: 150px;
+padding: 25px;
 }
 
 
@@ -228,6 +228,23 @@ padding-bottom: 10px;
 }
 /*Desktop Styles*/
 @media only screen and (min-width:400px) {
+  .header-banner {
+    background-image: url("/Users/trevorchalupnik/Desktop/GitHub/gra-321/responsive-project/img/coffee-beans.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-position: center center;
+    display:flex;
+    justify-content: center;
+  }
+
+  .header-banner img {
+  height: 300px;
+  width: 350px;
+  padding: 50px;
+  }
+
 .iced-drinks {
 display:flex;
 flex-direction: row-reverse;
