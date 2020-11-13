@@ -132,6 +132,18 @@ section h1, p, ul, li {
   color:
 }
 
+.menu-image {
+width: 100%;
+margin-bottom: 10px;
+}
+
+.menu-image img {
+  width:100%;
+  position:relative;
+}
+
+
+
 .grilled-panini {
   width:85%;
   margin: 0 auto;
@@ -209,3 +221,54 @@ iframe {
 width:50%;
 }
 /*Desktop Styles*/
+@media only screen and (min-width:400px) {
+.iced-drinks {
+display:flex;
+flex-direction: row-reverse;
+}
+
+.hot-drinks {
+  display: flex;
+}
+
+  .menu-image {
+  width: 60%;
+  margin-bottom: 10px;
+  margin-right: 90px;
+  }
+
+  .menu-image img {
+    width:100%;
+    position:relative;
+  }
+
+.menu-info {
+width: 50%;
+}
+
+   .menu-item-row {
+    background-color: peachpuff;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding: 0 0 1rem 0;
+  }
+
+  .menu-item-row p {    /*This could also be called .menu-items-row .drink-name */
+
+    text-align:left;
+    background-color:peachpuff;
+  }
+
+  .menu-item-row ul {
+
+    list-style-type: none;
+    float: left;
+    text-align:left;
+    background-color:peachpuff;
+  }
+
+  .menu-item-row ul li {
+    display: inline-block;
+  }
