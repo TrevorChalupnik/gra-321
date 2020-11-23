@@ -12,7 +12,7 @@ width: 100%;
 }
 
 .header-banner {
-  background-image: url("img/coffee-beans.jpeg");
+  background-image: url("../img/coffee-beans.jpeg");
   background-repeat:no-repeat;
   background-size: cover;
   width: 100%;
@@ -126,11 +126,12 @@ section h1, p, ul, li {
   color:#724937;
 }
 
-.iced-drinks, .hot-drinks, .specialty-menu {
+.iced-drinks, .hot-drinks, .specialty-menu-container, #iceddrinks h1, .grilled-panini-container {
   width:85%;
   margin: 0 auto;
   color:
 }
+
 
 .menu-image {
 width: 100%;
@@ -143,12 +144,6 @@ margin-bottom: 10px;
 }
 
 
-
-.grilled-panini {
-  width:85%;
-  margin: 0 auto;
-  color:
-}
 
  .menu-item-row {
   background-color: peachpuff;
@@ -245,23 +240,14 @@ padding-bottom: 10px;
   padding: 50px;
   }
 
-.iced-drinks {
+.iced-drinks, .grilled-panini-container, .hot-drinks, .specialty-menu-container {
   display: flex;
-  background-color: salmon;
   flex-direction: row-reverse;
-
   justify-content: space-between;
 }
 
-.hot-drinks {
-display: flex;
-background-color: salmon;
-flex-direction: row-reverse;
 
-justify-content: space-between;
-}
-
-#location {
+.locations-all {
   display: flex;
   justify-content: space-around;
   margin: 80px;
@@ -285,11 +271,7 @@ justify-content: space-between;
   text-align:left;
 }
 
-  .menu-image {
-  width: 60%;
-  margin-bottom: 10px;
-  margin-right: 90px;
-  }
+
 
   .menu-image img {
     width:100%;
@@ -319,8 +301,22 @@ justify-content: space-between;
     float: left;
     text-align:left;
     background-color:peachpuff;
+    width: 50%;
+
   }
 
   .menu-item-row ul li {
     display: inline-block;
   }
+
+  .iced-drinks-info {
+  width: 40%;
+  }
+
+
+  .menu-image {
+  width: 40%;
+  float: right;
+  text-align:right;
+}
+}
