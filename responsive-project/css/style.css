@@ -126,12 +126,21 @@ section h1, p, ul, li {
   color:#724937;
 }
 
-.iced-drinks, .hot-drinks, .specialty-menu-container, #iceddrinks h1, .grilled-panini-container {
+.iced-drinks, .hot-drinks, .specialty-menu-container {
   width:85%;
   margin: 0 auto;
   color:
 }
 
+.grilled-panini-container ul, li, p {
+  width:85%;
+  margin: 0 auto;
+}
+
+#iceddrinks h1, #hotdrinks h1, #specialtymenu h1, #grilledpanini h1 {
+  width:85%;
+  margin: 0 auto;
+}
 
 .menu-image {
 width: 100%;
@@ -286,7 +295,7 @@ padding-bottom: 10px;
     display:flex;
     justify-content: space-between;
     align-items:flex-start;
-    padding: 0 0 1rem 0;
+    padding: 20px;
   }
 
   .menu-item-row p {    /*This could also be called .menu-items-row .drink-name */
@@ -309,7 +318,7 @@ padding-bottom: 10px;
     display: inline-block;
   }
 
-  .iced-drinks-info {
+  .iced-drinks-info, {
   width: 40%;
   }
 
